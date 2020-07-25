@@ -17,16 +17,16 @@ def find_differences(first_file_name, second_file_name, connector=' AND', encode
 
     if first_file_format == 'xlsx':
         first_file = pd.read_excel(first_file_name, skiprows=rows_to_skip, header=header_line,
-                                   encoding=encode).astype('object')
+                                   encoding=encode, dtype='str')
     if second_file_format == 'xlsx':
         second_file = pd.read_excel(second_file_name, skiprows=rows_to_skip, header=header_line,
-                                    encoding=encode).astype('object')
+                                    encoding=encode, dtype='str')
     if first_file_format == 'csv':
-        first_file = pd.read_csv(first_file_name, skiprows=rows_to_skip, header=header_line,
-                                 encoding=encode, sep=in_separator).astype('object')
+        first_file = pd.read_csv(first_file_name, skiprows=rows_to_skip, header=header_line, encoding=encode,
+                                 sep=in_separator, dtype='str')
     if second_file_format == 'csv':
         second_file = pd.read_csv(second_file_name, skiprows=rows_to_skip, header=header_line, encoding=encode,
-                                  sep=in_separator).astype('object')
+                                  sep=in_separator, dtype='str')
     if first_col_list:
         first_file = first_file.iloc[:, first_col_list]
     if second_col_list:
