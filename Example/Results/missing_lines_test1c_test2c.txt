@@ -1,0 +1,6 @@
+Lines missing in Example\Test_files\Test1\\test1c.csv: 0
+
+
+Lines missing in Example\Test_files\Test2\\test2c.csv: 2
+a = '9' AND b = '0' AND c = '1' AND d = 'f'
+a = 'v' AND b = 'nan' AND c = 'nan' AND d = 'nan'
