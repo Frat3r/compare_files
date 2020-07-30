@@ -9,7 +9,9 @@ The basic requirements are
 I recommend using [Anaconda](https://www.anaconda.com/products/individual) - it contains everything what is needed.
 
 ## Executing
-To use script edit _compare_files.py_ file with any text editor and change the parameters according to your needs (especially __FIRST_FOLDER__ and __SECOND_FOLDER__). After that run _compare_files.py_ from console (or you may just use IDE like PyCharm or Spyder).   
+To use script edit _compare_files.py_ file with any text editor and change the parameters according to your needs (especially __FIRST_FOLDER__ and __SECOND_FOLDER__). After that run _compare_files.py_ from console by  
+_\[Path_to_Python_folder\]\Python38\python.exe_ _\[Path_to_compare_files\]\compare_files.py_  
+(or you may just use IDE like PyCharm or Spyder).   
 Result of executing file _compare_files.py_ for pairs (A_1,B_1), ..., (A_n,B_n) are three sets of files:
 * missing_lines_A_1\_B_1.txt, missing_lines_A_2\_B_2.txt, ..., missing_lines_A_n\_B_n.txt
 * missing_lines_A_1.csv, missing_lines_A_2.csv,..., missing_lines_A_n.csv
