@@ -4,9 +4,9 @@ This script can be used to compare multiple pairs of .csv or .xlsx files.
 ## Requirements
 The basic requirements are 
 * [python 3](https://www.python.org/downloads/release/python-385/) 
-* pandas (to install it use _pip install pandas_ in python console)
+* pandas (to install it in cmd use _cd_ _\[...\Python\Python38\Scripts\]_, then _pip.exe install pandas_)
  
-I recommend using [Anaconda](https://www.anaconda.com/products/individual).
+I recommend using [Anaconda](https://www.anaconda.com/products/individual) - it contains everything what is needed.
 
 ## Executing
 To use script edit _compare_files.py_ file with any text editor and change the parameters according to your needs (especially __FIRST_FOLDER__ and __SECOND_FOLDER__). After that run _compare_files.py_ from console (or you may just use IDE like PyCharm or Spyder).   
