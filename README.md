@@ -4,7 +4,7 @@ This script can be used to compare multiple pairs of .csv or .xlsx files.
 ## Requirements
 The basic requirements are 
 * [python 3](https://www.python.org/downloads/release/python-385/) 
-* pandas (to install it in cmd use _cd_ _\[...\Python\Python38\Scripts\]_, then _pip.exe install pandas_)
+* pandas (to install it in cmd use _cd_ _\[Path_to_Python_folder\]\Python38\Scripts_, then _pip.exe install pandas_)
  
 I recommend using [Anaconda](https://www.anaconda.com/products/individual) - it contains everything what is needed.
 
