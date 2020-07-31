@@ -22,10 +22,10 @@ __FIRST_FOLDER__ – specifies path to the folder with first set of files\
 __SECOND_FOLDER__ – specifies path to the folder with second set of files. Corresponding files in FIRST_FOLDER and SECOND_FOLDER may have different names. Which file corrensponds to a given file is determined by order of files in their folders\
 __FIRST_FILES_LIST__ – list of strings, determines which files from FIRST_FOLDER will be used, it may be used to determine order of files, if [] then all files from FIRST_FOLDER will be used\
 __SECOND_FILES_LIST__ – list of strings, determines which files from SECOND_FOLDER will be used, it may be used to determine order of files, if [] then all files from SECOND_FOLDER will be used\
-__RESULT_FOLDER__ – path to folder in which missing_lines_[first_filename]\_[second_file_name].txt files will be saved, if specified folder doesn't exist then it will be created automatically\
+__RESULT_FOLDER__ – path to folder in which missing_lines_[first_filename]\_[second_filename].txt files will be saved, if specified folder doesn't exist then it will be created automatically\
 __FIRST_RESULT_FOLDER__ – path to folder in which missing_lines_[first_filename].csv files will be saved, if specified folder doesn't exist then it will be created automatically\
 __SECOND_RESULT_FOLDER__ – path to folder in which missing_lines_[second_filename].csv files will be saved, if specified folder doesn't exist then it will be created automatically\
-__CONNECTOR__ – string, determines connector between columns in missing_lines_[first_filename]\_[second_file_name].txt files\
+__CONNECTOR__ – string, determines connector between columns in missing_lines_[first_filename]\_[second_filename].txt files\
 __ENCODING__ – string, encoding of .csv files\
 __IN_SEPARATOR__ – string, separator of .csv files in FIRST_FOLDER and SECOND_FOLDER\
 __OUT_SEPARATOR__ – string, separator of .csv files in FIRST_RESULT_FOLDER and SECOND_RESULT_FOLDER\
