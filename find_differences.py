@@ -15,10 +15,10 @@ def find_differences(first_file_name, second_file_name, connector=' AND', encode
     if result_folder and second_result_folder == '':
         second_result_folder = result_folder
 
-    if first_file_format == 'xlsx':
+    if first_file_format == 'xlsx' or first_file_format == 'xls':
         first_file = pd.read_excel(first_file_name, skiprows=rows_to_skip, header=header_line,
                                    encoding=encode, dtype='str')
-    if second_file_format == 'xlsx':
+    if first_file_format == 'xlsx' or first_file_format == 'xls':
         second_file = pd.read_excel(second_file_name, skiprows=rows_to_skip, header=header_line,
                                     encoding=encode, dtype='str')
     if first_file_format == 'csv':
